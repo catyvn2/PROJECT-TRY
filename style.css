@@ -51,4 +51,16 @@ body{
   .grid{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
   .product-card img{height:180px}
 }
+button, .btn {
+  background: #8a2be2;
+  padding: 12px 25px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
+button:hover {
+  background: #6c1fc9;
+}
