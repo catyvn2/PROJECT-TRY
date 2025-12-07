@@ -12,6 +12,18 @@ body{
   background:var(--bg);
   color:#111827;
 }
+.banner {
+  position: relative;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.logo {
+  width: 120px;     /* adjust size */
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
 .container{max-width:1200px;margin:0 auto;padding:24px}
 .site-header{border-bottom:1px solid #eef2f7;padding:12px 0;margin-bottom:24px}
 .header-inner{display:flex;justify-content:space-between;align-items:center}
@@ -39,3 +51,4 @@ body{
   .grid{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
   .product-card img{height:180px}
 }
+
